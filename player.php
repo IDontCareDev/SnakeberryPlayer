@@ -1,6 +1,6 @@
 <?php
 // includes
-require 'player_impl.php';
+include 'player_impl.php';
 
 // implementation
 if ($_GET['action'] == 'play') {
@@ -12,9 +12,13 @@ if ($_GET['action'] == 'stop') {
 }
 
 if ($_GET['action'] == 'volume100') {
-    volume(100);
+    setVolume(100);
 }
 
 if ($_GET['action'] == 'volume0') {
-    volume(0);
+    setVolume(0);
+}
+
+if ($_GET['action'] == 'getVolume') {
+    getVolume();
 }
