@@ -1,4 +1,8 @@
 # Snakeberry-Player
 php based web application to control Snakeberry
 
-created 2015 by RawIDontCare
+created 2016 by IDontCareDev / TODO Media
+
+INFO
+
+Still checking my options, because my last trys to setup a MVC pattern went wrong. So I decided to swap to an PHP framework, but I have to evalute this and setup the repository.
